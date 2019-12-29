@@ -1,0 +1,11 @@
+build/
+
+*~
+\#*
+
+GPATH
+GRTAGS
+GTAGS
+
+.ccls-cache
+compile_commands.json
