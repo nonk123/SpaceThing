@@ -1,8 +1,9 @@
-#ifndef SPACE_THING_HPP
-#define SPACE_THING_HPP
+#ifndef GAME_HPP
+#define GAME_HPP
 
 #include "irrlicht.h"
 
+#include "World.hpp"
 #include "EventReceiver.hpp"
 
 namespace SpaceThing {
@@ -18,6 +19,8 @@ namespace SpaceThing {
       private:
         void initSession(irr::IrrlichtDevice*);
         void nullSession();
+
+        World world;
 
       public:
         bool running = true;

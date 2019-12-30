@@ -12,7 +12,8 @@ find_package(Irrlicht REQUIRED FATAL_ERROR)
 
 set(SPACE_THING_SRC
   src/main.cpp
-  src/Game.cpp)
+  src/Game.cpp
+  src/RenderUtils.cpp)
 
 set(VIDEO_DRIVER "OPENGL" CACHE STRING
   "Irrlicht video driver to use without the irr::video::EDT_ prefix.")
